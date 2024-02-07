@@ -20,7 +20,6 @@
         <h4 class="reduced-margin">Freelance software architect & full stack developer</h4>
         <h5 class="sub-heading">Whitley Bay, Tyne & Wear | +447561813818 | <a href="mailto:joshdawson@progmaticsoftware.co.uk">joshdawson@progmaticsoftware.co.uk</a></h5>
 
-        <p>Highly skilled, driven and passionate software professional with over 7 years experience across the whole software development domain.</p>
         <p>Expert in full stack development using Node.js & Tyescript, GraphQL, Angular and PostgreSQL.</p>
         <p>Skilled in Software Architecture & Design having been involved in multiple projects from the outset.</p>
         <p>Excellent problem solving skills developed over years of solving difficult problems in fast paced environments</p>
@@ -28,23 +27,65 @@
 
       <section class="content">
         <h1 class="reduced-margin">EXPERIENCE</h1>
-        <h4 class="experience-heading reduced-margin">Technical architect @ NBS<small class="duration"> April 2022 - December 2023</small></h4>
-        <p>Provided technical leadership for strategically important technical requirements through prototyping, de-risking, architectural designs and robust technical documentation. </p>
+        <div class="experience-container">
+          <div class="experience-detail">
+            <h4>Technical architect @ NBS</h4>
 
-        <h4 class="experience-heading reduced-margin">Senior software engineer @ Ultramed<small class="duration"> August 2021 - February 2022</small></h4>
-        <p>First software engineering hire at a fast paced MedTech start up. Introduced automated tests to untested codebases,  helped introduce software development process and contributed to implementation and architecture of new hospital integration system.</p>
+            <p>Provided technical leadership for strategically important technical requirements through prototyping, de-risking, architectural designs and robust technical documentation. </p>
+          </div>
 
-        <h4 class="experience-heading reduced-margin">Software developer @ NBS<small class="duration"> September 2016 - August 2021</small></h4>
-        <p>Instrumental in helping build new SaaS offering from the ground up. Involved from proof of concept phase, leading development of multiple features within a scrum team alongisde mentoring junior members of the team.</p>
+          <div class="experience-date">
+            <small class="duration">April 2022 - December 2023</small>
+          </div>      
+        </div>
+
+        <div class="experience-container">
+          <div class="experience-detail">
+            <h4>Senior software engineer @ Ultramed</h4>
+
+            <p>First software engineering hire at a fast paced MedTech start up. Introduced automated tests to untested codebases,  helped introduce software development process and contributed to implementation and architecture of new hospital integration system.</p>
+          </div>
+          <div class="experience-date">
+            <small class="duration">August 2021 - February 2022</small>
+          </div>
+        </div>
+
+        <div class="experience-container">
+          <div class="experience-detail">
+            <h4>Software developer @ NBS</h4>
+
+            <p>Instrumental in helping build new SaaS offering from the ground up. Involved from proof of concept phase, leading development of multiple features within a scrum team alongisde mentoring junior members of the team.</p>
+          </div>
+          <div class="experience-date">
+            <small class="duration">September 2016 - August 2021</small>
+          </div>
+        </div>
       </section>
 
       <section class="content">
         <h1 class="reduced-margin">EDUCATION</h1>
-        <h4 class="experience-heading reduced-margin">York St. John University<small class="duration"> 2013 - 2016</small></h4>
-        <p>First class honours in Computer Science (BSc Hons)<br />IEEE published author<br />Vice chancellor award for outstanding achievement</p>
 
-        <h4 class="experience-heading reduced-margin">Heaton Manor School<small class="duration"> 2006 - 2013</small></h4>
-        <p>A-levels in Maths, Physics and Computing</p>
+        <div class="experience-container">
+          <div class="experience-detail">
+            <h4>York St. John University</h4>
+
+            <p>First class honours in Computer Science (BSc Hons)<br />IEEE published author<br />Vice chancellor award for outstanding achievement</p>
+          </div>
+          <div class="experience-date">
+            <small class="duration">2013 - 2016</small>
+          </div>
+        </div>
+
+        <div class="experience-container">
+          <div class="experience-detail">
+            <h4>Heaton Manor School</h4>
+
+            <p>A-levels in Maths, Physics and Computing</p>
+          </div>
+          <div class="experience-date">
+            <small class="duration">2006 - 2013</small>
+          </div>
+        </div>
       </section>
 
       <section class="content">
@@ -111,6 +152,18 @@
     border-bottom: 1px solid #A6A6A8;
   }
 
+  .experience-container {
+    display: flex;
+  }
+
+  .experience-detail {
+    flex: 1 0 10%;
+  }
+
+  .experience-date {
+    padding: 0 1rem;
+  }
+
   .sub-heading {
     color: #3E3C53
   }
@@ -118,12 +171,6 @@
   .duration {
     margin-left: auto;
     color: #18768C;
-  }
-
-  .experience-heading {
-    display: flex;
-    align-items: center;
-    /* margin: .5rem 0; */
   }
 
   .reduced-margin {
@@ -145,6 +192,20 @@
       p {
         margin: 0 .5rem;
       }
+    }
+
+    .content {
+      min-height: 90vh;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .experience-container {
+      flex-direction: column;
+    }
+
+    .experience-date {
+      padding: 0;
     }
   }
 </style>
