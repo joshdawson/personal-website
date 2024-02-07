@@ -5,7 +5,10 @@
   <div class="app">
 
     <section class="menu">
-      <h2>Image placeholder</h2>
+      <div class="circle-image">
+        <img class="me-image" src="./assets/me.jpg" />
+      </div>
+      
       <p>ABOUT</p>
       <p>EXPERIENCE</p>
       <p>EDUCATION</p>
@@ -62,6 +65,21 @@
   .app {
     display: flex;
     flex-direction: row;
+  }
+
+  .circle-image {
+    display: inline-block;
+    width: 12rem;
+    height: 12rem;
+    overflow: hidden;
+    border-radius: 50%;
+    border: .5rem solid #A6A6A8;
+  }
+
+  .me-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
   }
 
   .menu {
