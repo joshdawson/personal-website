@@ -17,7 +17,13 @@
     <div class="wrapper-inner">
       <section class="content">
         <h1>JOSH DAWSON</h1>
+        <h4 class="reduced-margin">Freelance software architect & full stack developer</h4>
         <h5 class="sub-heading">Whitley Bay, Tyne & Wear | +447561813818 | <a href="mailto:joshdawson@progmaticsoftware.co.uk">joshdawson@progmaticsoftware.co.uk</a></h5>
+
+        <p>Highly skilled, driven and passionate software professional with over 7 years experience across the whole software development domain.</p>
+        <p>Expert in full stack development using Node.js & Tyescript, GraphQL, Angular and PostgreSQL.</p>
+        <p>Skilled in Software Architecture & Design having been involved in multiple projects from the outset.</p>
+        <p>Excellent problem solving skills developed over years of solving difficult problems in fast paced environments</p>
       </section>
 
       <section class="content">
