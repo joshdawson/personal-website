@@ -127,4 +127,18 @@
   .experience-detail {
     font-size: .9rem;
   }
+
+  @media (max-width: 1000px) {
+    .circle-image {
+      display: none;
+    }
+
+    .menu {
+      flex-direction: row;
+
+      p {
+        margin: 0 .5rem;
+      }
+    }
+  }
 </style>

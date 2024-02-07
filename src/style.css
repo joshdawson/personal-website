@@ -24,6 +24,12 @@ body {
   height: 100%;
 }
 
+@media (max-width: 1000px) {
+  #app {
+    flex-direction: column-reverse;
+  }
+}
+
 a {
   font-weight: 500;
   color: #21A0C0;
