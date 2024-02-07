@@ -2,20 +2,19 @@
 </script>
 
 <template>
-  <div class="app">
+  <aside class="menu">
+    <div class="circle-image">
+      <img class="me-image" src="./assets/me.jpg" />
+    </div>
+    
+    <p>ABOUT</p>
+    <p>EXPERIENCE</p>
+    <p>EDUCATION</p>
+    <p>SKILLS</p>
+  </aside>
 
-    <section class="menu">
-      <div class="circle-image">
-        <img class="me-image" src="./assets/me.jpg" />
-      </div>
-      
-      <p>ABOUT</p>
-      <p>EXPERIENCE</p>
-      <p>EDUCATION</p>
-      <p>SKILLS</p>
-    </section>
-
-    <section class="content-container">
+  <main class="content-container">
+    <div class="wrapper-inner">
       <section class="content">
         <h1>JOSH DAWSON</h1>
         <h5 class="sub-heading">Whitley Bay, Tyne & Wear | +447561813818 | <a href="mailto:joshdawson@progmaticsoftware.co.uk">joshdawson@progmaticsoftware.co.uk</a></h5>
@@ -57,14 +56,14 @@
         <h4>Other skills</h4>
         <p>Team leadership, project management, mentoring, time management</p>
       </section>
-    </section>
-  </div>
+    </div>
+  </main>
 </template>
 
 <style scoped>
   .app {
     display: flex;
-    flex-direction: row;
+    height: 100%;
   }
 
   .circle-image {
@@ -83,23 +82,17 @@
   }
 
   .menu {
-    flex: 1;
     background-color: #272635;
+    flex: 1 0 10%;
     display: flex;
     flex-direction: column;
-    max-width: 320px;
-    min-height: 100vh;
     align-items: center;
     justify-content: center;
-    position: sticky;
+    padding: 0 4rem;
   }
 
   .content-container {
-    display: flex;
-    flex-direction: column;
-    overflow-y: scroll;
-    min-height: 100vh;
-    flex: 1;
+    overflow-y: auto;
   }
 
   .content {
@@ -108,8 +101,7 @@
     flex-direction: column;
     padding: 1rem;
     justify-content: center;
-    min-height: 100%;
-    height: 100%;
+    min-height: 100vh;
     border-bottom: 1px solid #A6A6A8;
   }
 
