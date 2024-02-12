@@ -4,18 +4,18 @@
 <template>
   <aside class="menu">
     <div class="circle-image">
-      <img class="me-image" src="./assets/me.jpg" />
+      <a href="#about"><img class="me-image" src="./assets/me.jpg" /></a>
     </div>
     
-    <p>ABOUT</p>
-    <p>EXPERIENCE</p>
-    <p>EDUCATION</p>
-    <p>SKILLS</p>
+    <p><a class="menu-link" href="#about">ABOUT</a></p>
+    <p><a class="menu-link" href="#experience">EXPERIENCE</a></p>
+    <p><a class="menu-link" href="#education">EDUCATION</a></p>
+    <p><a class="menu-link" href="#skills">SKILLS</a></p>
   </aside>
 
   <main class="content-container">
     <div class="wrapper-inner">
-      <section class="content">
+      <section class="content" id="about">
         <h1>JOSH DAWSON</h1>
         <h4 class="reduced-margin">Freelance software architect & full stack developer</h4>
         <h5 class="sub-heading">Whitley Bay, Tyne & Wear | +447561813818 | <a href="mailto:joshdawson@progmaticsoftware.co.uk">joshdawson@progmaticsoftware.co.uk</a></h5>
@@ -32,7 +32,7 @@
         </p>
       </section>
 
-      <section class="content">
+      <section class="content" id="experience">
         <h1 class="reduced-margin">EXPERIENCE</h1>
         <div class="experience-container">
           <div class="experience-detail">
@@ -69,7 +69,7 @@
         </div>
       </section>
 
-      <section class="content">
+      <section class="content" id="education">
         <h1 class="reduced-margin">EDUCATION</h1>
 
         <div class="experience-container">
@@ -95,7 +95,7 @@
         </div>
       </section>
 
-      <section class="content">
+      <section class="content" id="skills">
         <h1 class="reduced-margin">SKILLS</h1>
         <h4>Technical skills</h4>
         <h5 class="reduced-margin">Expert in</h5>
@@ -107,7 +107,7 @@
         <h5 class="reduced-margin">Exposure to</h5>
         <p>C#, GCP, Docker, Terraform, Azure, Python, AI & LLMs</p>
 
-        <h4>Other skills</h4>
+        <h4 class="reduced-margin">Other skills</h4>
         <p>Team leadership, project management, mentoring, time management</p>
       </section>
     </div>
@@ -120,6 +120,14 @@
     height: 100%;
   }
 
+  .menu-link {
+    color: #ffffffde;
+  }
+
+  .menu-link:hover {
+    color: #ffffff;
+  }
+
   .circle-image {
     display: inline-block;
     width: 12rem;
@@ -127,6 +135,7 @@
     overflow: hidden;
     border-radius: 50%;
     border: .5rem solid #A6A6A8;
+    margin: 1rem 0;
   }
 
   .me-image {
@@ -147,6 +156,7 @@
 
   .content-container {
     overflow-y: auto;
+    scroll-behavior: smooth;
   }
 
   .content {
