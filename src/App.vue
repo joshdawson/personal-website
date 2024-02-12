@@ -23,6 +23,13 @@
         <p>Expert in full stack development using Node.js & Tyescript, GraphQL, Angular and PostgreSQL.</p>
         <p>Skilled in Software Architecture & Design having been involved in multiple projects from the outset.</p>
         <p>Excellent problem solving skills developed over years of solving difficult problems in fast paced environments</p>
+        <p>
+          <a href="https://www.linkedin.com/in/josh-dawson-674815228/">
+            <svg class="social-icon-wrapper" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <path class="social-icon" d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+            </svg>
+          </a>
+        </p>
       </section>
 
       <section class="content">
@@ -31,7 +38,7 @@
           <div class="experience-detail">
             <h4>Technical architect @ NBS</h4>
 
-            <p>Provided technical leadership for strategically important technical requirements through prototyping, de-risking, architectural designs and robust technical documentation. </p>
+            <p>Provided technical leadership for strategically important technical requirements through prototyping, de-risking, architectural designs and robust technical documentation. Collaborated with the CTO, Director of Software Delivery, and Software Architect to manage and prioritise workload, ensuring work is delivered to a high quality within an appropriate time frame.</p>
           </div>
 
           <div class="experience-date">
@@ -161,7 +168,7 @@
   }
 
   .experience-date {
-    padding: 0 1rem;
+    padding: 1rem;
   }
 
   .sub-heading {
@@ -179,6 +186,19 @@
 
   .experience-detail {
     font-size: .9rem;
+  }
+
+  .social-icon {
+    fill: #272635;
+  }
+
+  .social-icon-wrapper:hover {
+    cursor: pointer;
+
+    .social-icon {
+      fill: #18768C;
+      
+    }
   }
 
   @media (max-width: 1000px) {
