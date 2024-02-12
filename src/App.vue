@@ -4,7 +4,8 @@
 <template>
   <aside class="menu">
     <div class="circle-image">
-      <a href="#about"><img class="me-image" src="./assets/me.jpg" /></a>
+      <!-- <a href="#about"><img class="me-image" src="./assets/me.jpg" /></a> -->
+      <a href="#about"><img class="me-image" src="/me.jpg" /></a>
     </div>
     
     <p><a class="menu-link" href="#about">ABOUT</a></p>
@@ -159,6 +160,10 @@
     scroll-behavior: smooth;
   }
 
+  .wrapper-inner {
+    padding: 0 2rem;
+  }
+
   .content {
     color: #272635;
     display: flex;
@@ -222,6 +227,10 @@
       p {
         margin: 0 .5rem;
       }
+    }
+
+    .wrapper-inner {
+      padding: 0;
     }
 
     .content {
