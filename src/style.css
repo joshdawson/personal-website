@@ -43,6 +43,10 @@ p {
   font-size: .9rem;
 }
 
+.no-margin {
+  margin: 0 !important;
+}
+
 /*
   Ghost white: #E8E9F3
   Silver: #CECECE
