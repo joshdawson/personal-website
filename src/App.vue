@@ -177,7 +177,7 @@
     flex-direction: column;
     padding: 1rem;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 100dvh;
     border-bottom: 1px solid #A6A6A8;
   }
 
@@ -251,7 +251,7 @@
     }
 
     .content {
-      min-height: 90vh;
+      min-height: 90dvh;
     }
   }
 
