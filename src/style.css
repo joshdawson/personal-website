@@ -24,6 +24,10 @@ body {
   height: 100%;
 }
 
+.codementor-badge {
+  width: auto !important;
+}
+
 @media (max-width: 1000px) {
   #app {
     flex-direction: column-reverse;

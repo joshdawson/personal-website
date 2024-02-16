@@ -35,7 +35,7 @@
             </svg>
           </a>
           <a href="https://www.codementor.io/@joshdawson661?refer=badge">
-            <img class="codementor-badge social-icon-wrapper" src="https://www.codementor.io/m-badges/joshdawson661/im-a-cm-b.svg" alt="Codementor badge">
+            <img class="social-icon-wrapper codementor-badge" src="https://www.codementor.io/m-badges/joshdawson661/im-a-cm-b.svg" alt="Codementor badge">
           </a>
         </p>
       </section>
@@ -160,6 +160,7 @@
     align-items: center;
     justify-content: center;
     padding: 0 4rem;
+    min-height: 4rem;
   }
 
   .content-container {
@@ -208,10 +209,6 @@
 
   .experience-detail {
     font-size: .9rem;
-  }
-
-  .codementor-badge {
-    width: auto;
   }
 
   .social-icon {
