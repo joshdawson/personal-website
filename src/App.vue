@@ -17,12 +17,11 @@
     <div class="wrapper-inner">
       <section class="content" id="about">
         <h1>JOSH DAWSON</h1>
-        <h4 class="reduced-margin">Freelance software architect & full stack developer</h4>
-        <h5 class="sub-heading">Whitley Bay, Tyne & Wear | +447561813818 | <a href="mailto:joshdawson@progmaticsoftware.co.uk">joshdawson@progmaticsoftware.co.uk</a></h5>
+        <h4 class="reduced-margin">Freelance senior full stack developer / architect</h4>
+        <!-- <p><a href="mailto:joshdawson@progmaticsoftware.co.uk">Get in touch</a></p> -->
+        <!-- <h5 class="sub-heading">Whitley Bay, Tyne & Wear | <a href="mailto:joshdawson@progmaticsoftware.co.uk">joshdawson@progmaticsoftware.co.uk</a></h5> -->
 
-        <p>Expert in full stack development using Node.js & Tyescript, GraphQL, Angular and PostgreSQL.</p>
-        <p>Skilled in Software Architecture & Design having been involved in multiple projects from the outset.</p>
-        <p>Excellent problem solving skills developed over years of solving difficult problems in fast paced environments</p>
+        <p>Dynamic senior full stack developer, architect, and mentor: 7+ years' expertise in Node.js, TypeScript, GraphQL, Angular & PostgreSQL. Proven leadership in project development & excellent communication. Passionate advocate for TDD & innovation, driving continuous improvement.</p>
         <p>
           <a href="https://www.linkedin.com/in/josh-dawson-674815228/">
             <svg class="social-icon-wrapper no-margin" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
