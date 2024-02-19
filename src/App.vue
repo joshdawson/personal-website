@@ -10,7 +10,7 @@
   <Menu></Menu>
 
   <main class="content-container">
-    <div class="wrapper-inner">
+    <div class="content-container-inner">
       <section class="content" id="about">
         <About></About>
       </section>
@@ -41,7 +41,7 @@
     scroll-behavior: smooth;
   }
 
-  .wrapper-inner {
+  .content-container-inner {
     padding: 0 2rem;
   }
 
@@ -56,7 +56,7 @@
   }
 
   @media (max-width: 1000px) {
-    .wrapper-inner {
+    .content-container-inner {
       padding: 0;
     }
 

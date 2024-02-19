@@ -19,6 +19,24 @@ body {
   height: 100dvh;
 }
 
+a {
+  font-weight: 500;
+  color: #21A0C0;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #23AFD1;
+}
+
+p {
+  font-size: .9rem;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: .5rem 0;
+}
+
 #app {
   display: flex;
   height: 100%;
@@ -28,38 +46,12 @@ body {
   width: auto !important;
 }
 
-.reduced-margin {
-  margin: .5rem 0;
-}
-
 @media (max-width: 1000px) {
   #app {
     flex-direction: column-reverse;
   }
 }
 
-a {
-  font-weight: 500;
-  color: #21A0C0;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #23AFD1;
-}
-
-p {
-  font-size: .9rem;
-}
-
 .no-margin {
   margin: 0 !important;
 }
-
-/*
-  Ghost white: #E8E9F3
-  Silver: #CECECE
-  French gray: #A6A6A8
-  Raisin black: #272635
-  non photo blue: #B1E5F2
-*/
-/* 353347 */
