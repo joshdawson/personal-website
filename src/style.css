@@ -28,6 +28,10 @@ body {
   width: auto !important;
 }
 
+.reduced-margin {
+  margin: .5rem 0;
+}
+
 @media (max-width: 1000px) {
   #app {
     flex-direction: column-reverse;
