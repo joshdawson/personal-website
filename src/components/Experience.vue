@@ -36,6 +36,8 @@
       <small class="duration">September 2016 - August 2021</small>
     </div>
   </div>
+
+  <p class="full-cv"><a href="https://drive.google.com/file/d/1xK35HDWKO5EqRkqgOl3luOH9270wSXRN/view?usp=sharing">View full CV</a></p>
 </template>
 
 <style scoped>
@@ -65,6 +67,10 @@
 
     .experience-date {
       padding: 0;
+    }
+
+    .full-cv {
+      margin-top: 2rem;
     }
   }
 </style>
