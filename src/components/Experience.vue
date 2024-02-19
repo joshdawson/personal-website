@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <h1 class="reduced-margin">EXPERIENCE</h1>
+  <h1>EXPERIENCE</h1>
   <div class="experience-container">
     <div class="experience-detail">
       <h4>Technical architect @ NBS</h4>
@@ -41,6 +41,7 @@
 <style scoped>
   .experience-container {
     display: flex;
+    margin-top: 1rem;
   }
 
   .experience-detail {
@@ -59,6 +60,7 @@
   @media (max-width: 640px) {
     .experience-container {
       flex-direction: column;
+      margin-top: 3rem;
     }
 
     .experience-date {

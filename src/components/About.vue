@@ -3,7 +3,7 @@
 
 <template>
   <h1>JOSH DAWSON</h1>
-  <h4 class="reduced-margin">Freelance senior full stack developer / architect</h4>
+  <h4>Freelance senior full stack developer / architect</h4>
   <p><a href="mailto:joshdawson@progmaticsoftware.co.uk">joshdawson@progmaticsoftware.co.uk</a></p>
 
   <p>Dynamic senior full stack developer, architect, and mentor: 7+ years' expertise in Node.js, TypeScript, GraphQL, Angular & PostgreSQL. Proven leadership in project development & excellent communication. Passionate advocate for TDD & innovation, driving continuous improvement.</p>
