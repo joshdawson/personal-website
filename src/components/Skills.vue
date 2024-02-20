@@ -6,8 +6,8 @@
   <h5>Expert in</h5>
   <p>JavaScript, Node.js, TypeScript, Angular, GraphQL, Jest, Jasmine, TDD</p>
 
-  <h5>Experienced at</h5>
-  <p>AWS, Nest.js, PostgreSQL, Elasticsearch, OAuth, Linux, HTML, CSS, React, Vue.js, Integration testing</p>
+  <h5>Experienced with</h5>
+  <p>AWS, Nest.js, PostgreSQL, Elasticsearch, REST, OAuth, Linux, HTML, CSS, React, Vue.js, Integration testing</p>
 
   <h5>Exposure to</h5>
   <p>.NET, GCP, Docker, Terraform, Azure, Python, AI (LLMs, NLP), End-to-end testing, SPARQL</p>
