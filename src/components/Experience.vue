@@ -37,7 +37,7 @@
     </div>
   </div>
 
-  <p class="full-cv">For a comprehensive overview of my experience and skills <a href="https://drive.google.com/file/d/1xK35HDWKO5EqRkqgOl3luOH9270wSXRN/view?usp=sharing">explore my full CV</a> </p>
+  <p class="full-cv">For a comprehensive overview of my experience and skills <a href="https://drive.google.com/file/d/1-EUkM-y_3mX_7bQ47fuZZypTP5varUQw/view?usp=sharing">explore my full CV</a> </p>
 </template>
 
 <style scoped>
