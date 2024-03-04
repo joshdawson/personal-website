@@ -2,18 +2,13 @@
 
 <template>
   <h1>SKILLS</h1>
-  <h4>Technical skills</h4>
-  <h5>Expert in</h5>
-  <p>JavaScript, Node.js, TypeScript, Angular, GraphQL, Jest, Jasmine, TDD</p>
+  <h4>Preferred technologies</h4>
+  <p>I like to build things for the web using these technologies:</p>
+  <p>HTML, SCSS, Angular, Node.js, Nest.js, TypeScript, GraphQL, PostgreSQL, AWS, TDD</p>
 
-  <h5>Experienced with</h5>
-  <p>AWS, Nest.js, PostgreSQL, Elasticsearch, REST, OAuth, Linux, HTML, CSS, React, Vue.js, Integration testing</p>
-
-  <h5>Exposure to</h5>
-  <p>.NET, GCP, Docker, Terraform, Azure, Python, AI (LLMs, NLP), End-to-end testing, SPARQL</p>
-
-  <h4>Practical skills</h4>
-  <p>Team leadership, project management, mentoring, time management</p>
+  <h4>Other technologies</h4>
+  <p>I'm also comfortable using these technologies:</p>
+  <p>Elasticsearch, REST, React, Vue, .NET, GCP, Docker, Terraform, Python</p>
 </template>
 
 <style scoped></style>

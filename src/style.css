@@ -11,6 +11,12 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --theme-dark: #272635;
+  --theme-highlight: #18768C;
+  --theme-gray: #79797C;
+  --theme-white-low-opacity: #ffffffde;
+  --theme-white: #ffffff;
 }
 
 body {
@@ -29,10 +35,6 @@ a:hover {
   color: #23AFD1;
 }
 
-p {
-  font-size: .9rem;
-}
-
 h1, h2, h3, h4, h5 {
   margin: .5rem 0 !important;
 }
@@ -49,6 +51,10 @@ h1, h2, h3, h4, h5 {
 @media (max-width: 1000px) {
   #app {
     flex-direction: column-reverse;
+  }
+
+  p {
+    font-size: .9em;
   }
 }
 

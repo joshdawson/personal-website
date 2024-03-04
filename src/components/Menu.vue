@@ -8,15 +8,14 @@
     </div>
     
     <p><a class="menu-link" href="#about">ABOUT</a></p>
-    <p><a class="menu-link" href="#experience">EXPERIENCE</a></p>
     <p><a class="menu-link" href="#services">SERVICES</a></p>
-    <p><a class="menu-link" href="#skills">SKILLS</a></p>
+    <p><a class="menu-link" href="#experience">EXPERIENCE</a></p>
   </aside>
 </template>
 
 <style scoped>
   .menu {
-    background-color: #272635;
+    background-color: var(--theme-dark);
     flex: 1 0 10%;
     display: flex;
     flex-direction: column;
@@ -32,7 +31,7 @@
     height: 12rem;
     overflow: hidden;
     border-radius: 50%;
-    border: .5rem solid #A6A6A8;
+    border: .5rem solid var(--theme-gray);
     margin: 1rem 0;
   }
 
@@ -43,11 +42,11 @@
   }
 
   .menu-link {
-    color: #ffffffde;
+    color: var(--theme-white-low-opacity);
   }
 
   .menu-link:hover {
-    color: #ffffff;
+    color: var(--theme-white);
   }
 
   @media (max-width: 1000px) {

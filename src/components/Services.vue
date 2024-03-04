@@ -4,7 +4,7 @@
 <template>
   <h1>SERVICES</h1>
 
-  <p>As a seasoned software developer and technical architect, I offer a range of services tailored to meet the diverse needs of clients in the digital space. With over 7 years of hands-on experience and a proven track record of success, I specialise in the following areas:</p>
+  <p>With over 7 years of hands-on experience and a proven track record of success, I specialise in the following areas:</p>
 
   <div class="services-heading">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="services-icon-container">
@@ -14,7 +14,7 @@
     <h4>Web Development</h4>
   </div>
 
-  <p>Leveraging cutting-edge technologies such as Node.js, TypeScript, Angular, and GraphQL, I craft robust and scalable web applications tailored to your specific requirements. Whether you need a dynamic single-page application or a SaaS solution, I deliver bespoke solutions that drive user engagement and business growth.</p>
+  <p>Leveraging cutting-edge technologies, I craft robust and scalable web applications tailored to your specific requirements. I can deliver bespoke solutions ranging from dynamic single-page applications to SaaS solutions.</p>
 
   <div class="services-heading">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="services-icon-container">
@@ -24,7 +24,7 @@
     <h4>API Development</h4>
   </div>
 
-  <p>Building upon my expertise in GraphQL, RESTful architecture, and API design principles, I develop secure and efficient APIs that facilitate seamless communication between disparate systems. From custom API integrations to comprehensive backend solutions, I ensure that your applications are equipped with robust and scalable APIs that power modern digital experiences.</p>
+  <p>Using my expertise API design principles, I develop secure and efficient APIs. From custom API integrations to comprehensive backend solutions, I ensure that your applications are equipped with robust and scalable APIs that power modern digital experiences.</p>
 
   <div class="services-heading">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="services-icon-container">
@@ -34,7 +34,7 @@
     <h4>Code Reviews</h4>
   </div>
 
-  <p>Drawing upon my extensive experience in software engineering and technical leadership, I offer comprehensive code review services aimed at identifying potential vulnerabilities, improving code quality, and enhancing overall maintainability. Through meticulous analysis and constructive feedback, I help teams optimise their codebase, adhere to best practices, and mitigate technical debt, ensuring the long-term success of their projects.</p>
+  <p>Drawing upon my extensive experience in software engineering and technical leadership, I offer comprehensive code review services aimed at identifying potential vulnerabilities, improving code quality, and enhancing overall maintainability.</p>
 
   <div class="services-heading">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="services-icon-container">
@@ -44,9 +44,10 @@
     <h4>Mentoring</h4>
   </div>
 
-  <p>With a passion for knowledge sharing and talent development, I provide personalised mentoring and coaching services to aspiring developers and seasoned professionals alike. Whether you're seeking guidance on specific technologies, project management methodologies, or career advancement strategies, I offer valuable insights, practical advice, and actionable feedback to help you achieve your goals.</p>
+  <p>With a passion for knowledge sharing and talent development, I provide personalised mentoring and coaching services to aspiring developers and seasoned professionals alike.</p>
 
-  <p>Feel free to <a href="mailto:joshdawson@progmaticsoftware.co.uk">reach out</a> to discuss your specific project requirements or to explore how I can assist you in achieving your objectives.</p>
+  <p></p>
+  <p>Feel free to <a class="mail-link" href="mailto:joshdawson@progmaticsoftware.co.uk">reach out</a> to discuss your specific project requirements or to explore how I can assist you in achieving your objectives.</p>
 </template>
 
 <style scoped>
@@ -55,10 +56,16 @@
     flex-direction: row;
     align-items: center;
     margin: .5rem 0;
+    color: var(--theme-highlight);
   }
 
   .services-icon-container {
     margin-right: .5rem;
+    fill: var(--theme-highlight);
+  }
+
+  .mail-link {
+    font-weight: 400;
   }
 
   @media (max-width: 640px) {

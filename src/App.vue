@@ -3,7 +3,6 @@
   import About from './components/About.vue';
   import Experience from './components/Experience.vue';
   import Services from './components/Services.vue';
-  import Skills from './components/Skills.vue';
 </script>
 
 <template>
@@ -15,16 +14,12 @@
         <About></About>
       </section>
 
-      <section class="content" id="experience">
-        <Experience></Experience>
-      </section>
-
       <section class="content" id="services">
         <Services></Services>
       </section>
 
-      <section class="content" id="skills">
-        <Skills></Skills>
+      <section class="content" id="experience">
+        <Experience></Experience>
       </section>
     </div>
   </main>

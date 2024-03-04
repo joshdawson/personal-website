@@ -5,9 +5,9 @@
   <h1>EXPERIENCE</h1>
   <div class="experience-container">
     <div class="experience-detail">
-      <h4>Technical architect @ NBS</h4>
+      <h4 class="experience-heading">Technical architect @ NBS</h4>
 
-      <p>Provided technical leadership for strategically important technical requirements through prototyping, de-risking, architectural designs and robust technical documentation. Collaborated with the CTO, Director of Software Delivery, and Software Architect to manage and prioritise workload, ensuring work is delivered to a high quality within an appropriate time frame.</p>
+      <p>Provided technical leadership for strategically important technical requirements through prototyping, de-risking, architectural designs and robust technical documentation.</p>
     </div>
 
     <div class="experience-date">
@@ -17,7 +17,7 @@
 
   <div class="experience-container">
     <div class="experience-detail">
-      <h4>Senior software engineer @ Ultramed</h4>
+      <h4 class="experience-heading">Senior software engineer @ Ultramed</h4>
 
       <p>First software engineering hire at a fast paced MedTech start up. Introduced automated tests to untested codebases,  helped introduce software development process and contributed to implementation and architecture of new hospital integration system.</p>
     </div>
@@ -28,7 +28,7 @@
 
   <div class="experience-container">
     <div class="experience-detail">
-      <h4>Software developer @ NBS</h4>
+      <h4 class="experience-heading">Software developer @ NBS</h4>
 
       <p>Instrumental in helping build new SaaS offering from the ground up. Involved from proof of concept phase, leading development of multiple features within a scrum team alongisde mentoring junior members of the team.</p>
     </div>
@@ -37,7 +37,7 @@
     </div>
   </div>
 
-  <p class="full-cv">For a comprehensive overview of my experience and skills <a href="https://drive.google.com/file/d/1-EUkM-y_3mX_7bQ47fuZZypTP5varUQw/view?usp=sharing">explore my full CV</a> </p>
+  <p class="full-cv">For a comprehensive overview of my experience and skills <a class="cv-link" href="https://drive.google.com/file/d/1-EUkM-y_3mX_7bQ47fuZZypTP5varUQw/view?usp=sharing">explore my full CV</a> </p>
 </template>
 
 <style scoped>
@@ -54,9 +54,17 @@
     padding: 1rem;
   }
 
+  .experience-heading {
+    color: var(--theme-highlight);
+  }
+
   .duration {
     margin-left: auto;
-    color: #18768C;
+    color: var(--theme-gray);
+  }
+
+  .cv-link {
+    font-weight: 400;
   }
 
   @media (max-width: 640px) {

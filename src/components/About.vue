@@ -3,11 +3,12 @@
 
 <template>
   <h1>JOSH DAWSON</h1>
-  <h4>Freelance senior full stack developer / architect</h4>
-  <p><a href="mailto:joshdawson@progmaticsoftware.co.uk">joshdawson@progmaticsoftware.co.uk</a></p>
-
-  <p>Dynamic senior full stack developer, architect, and mentor: 7+ years' expertise in Node.js, TypeScript, GraphQL, Angular & PostgreSQL. Proven leadership in project development & excellent communication. Passionate advocate for TDD & innovation, driving continuous improvement.</p>
+  <h4>Freelance senior full stack developer & architect</h4>
   
+  <p>I build performant, scalable, and secure things for the web.</p>
+  <small>Angular | Node.js | Nest.js | TypeScript | GraphQL | PostgreSQL | AWS | TDD</small>
+  
+  <p><a href="mailto:joshdawson@progmaticsoftware.co.uk">joshdawson@progmaticsoftware.co.uk</a></p>
   <p>
     <a href="https://www.linkedin.com/in/josh-dawson-674815228/">
       <svg class="social-icon-wrapper no-margin" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -36,12 +37,11 @@
     cursor: pointer;
 
     .social-icon {
-      fill: #18768C;
-      
+      fill: var(--theme-highlight);
     }
   }
 
   .social-icon {
-    fill: #272635;
+    fill: var(--theme-dark);
   }
 </style>
