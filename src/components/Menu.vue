@@ -1,10 +1,11 @@
 <script setup lang="ts">
+import meImageUrl from '../assets/me.jpg'
 </script>
 
 <template>
     <aside class="menu">
     <div class="circle-image">
-      <a href="#about"><img class="me-image" src="/me.jpg" /></a>
+      <a href="#about"><img class="me-image" :src="meImageUrl" /></a>
     </div>
     
     <p><a class="menu-link" href="#about">ABOUT</a></p>
