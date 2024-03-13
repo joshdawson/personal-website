@@ -6,7 +6,7 @@
   <h4>Freelance senior full stack developer & architect</h4>
   
   <p>I build performant, scalable, and secure things for the web.</p>
-  <small>Angular | Node.js | Nest.js | TypeScript | GraphQL | PostgreSQL | AWS | TDD</small>
+  <small>Node.js | TypeScript | PostgreSQL | TDD</small>
   
   <p><a href="mailto:joshdawson@progmaticsoftware.co.uk">joshdawson@progmaticsoftware.co.uk</a></p>
   <p>
