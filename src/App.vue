@@ -3,6 +3,7 @@
   import About from './components/About.vue';
   import Experience from './components/Experience.vue';
   import Services from './components/Services.vue';
+  import Projects from './components/Projects.vue';
 </script>
 
 <template>
@@ -12,6 +13,10 @@
     <div class="content-container-inner">
       <section class="content" id="about">
         <About></About>
+      </section>
+
+      <section class="content" id="projects">
+        <Projects></Projects>
       </section>
 
       <section class="content" id="services">

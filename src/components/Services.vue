@@ -1,5 +1,4 @@
 <script setup lang="ts">
-// import Card from 'primevue/card';
 import Fieldset from 'primevue/fieldset';
 </script>
 
@@ -26,7 +25,6 @@ import Fieldset from 'primevue/fieldset';
 </template>
 
 <style scoped>
-  
   .services-container {
     margin-top: 2rem;
   }

@@ -8,6 +8,7 @@
     </div>
     
     <p><a class="menu-link" href="#about">ABOUT</a></p>
+    <p><a class="menu-link" href="#projects">PROJECTS</a></p>
     <p><a class="menu-link" href="#services">SERVICES</a></p>
     <p><a class="menu-link" href="#experience">EXPERIENCE</a></p>
   </aside>
@@ -58,7 +59,7 @@
       flex-direction: row;
 
       p {
-        margin: 0 .5rem;
+        margin: 0 .4rem;
       }
     }
   }
