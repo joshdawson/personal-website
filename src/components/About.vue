@@ -3,7 +3,7 @@
 
 <template>
   <h1>JOSH DAWSON</h1>
-  <h4>Freelance senior full stack developer & architect</h4>
+  <h4>Freelance Senior Node.js Developer</h4>
   
   <p>I build performant, scalable, and secure things for the web.</p>
   <small>Node.js | TypeScript | PostgreSQL | TDD</small>
