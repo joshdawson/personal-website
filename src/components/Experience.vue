@@ -16,7 +16,7 @@ import Card from 'primevue/card';
   </Card>
 
   <Card class="experience-card">
-    <template #title>Technical architect @ NBS</template>
+    <template #title>Technical Architect @ NBS</template>
     <template #subtitle>April 2022 - December 2023</template>
 
     <template #content>
@@ -26,7 +26,7 @@ import Card from 'primevue/card';
   </Card>
 
   <Card class="experience-card">
-    <template #title>Senior software engineer @ Ultramed</template>
+    <template #title>Senior Software Engineer @ Ultramed</template>
     <template #subtitle>August 2021 - February 2022</template>
 
     <template #content>
@@ -36,7 +36,7 @@ import Card from 'primevue/card';
   </Card>
 
   <Card class="experience-card">
-    <template #title>Software developer @ NBS</template>
+    <template #title>Software Developer @ NBS</template>
     <template #subtitle>September 2016 - August 2021</template>
 
     <template #content>
