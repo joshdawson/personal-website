@@ -5,8 +5,7 @@
   <h1>JOSH DAWSON</h1>
   <h4>Freelance Software Developer & Architect</h4>
   
-  <p>I build performant, scalable, and secure things for the web.</p>
-  <small>Node.js | TypeScript | PostgreSQL | TDD</small>
+  <p>I build performant, scalable, and secure things for the web; specialising in building MVPs and getting new products off the ground.</p>
   
   <p><a href="mailto:joshdawson@progmaticsoftware.co.uk">joshdawson@progmaticsoftware.co.uk</a></p>
   <p>
