@@ -19,12 +19,12 @@
         <Projects></Projects>
       </section>
 
-      <section class="content" id="services">
-        <Services></Services>
-      </section>
-
       <section class="content" id="experience">
         <Experience></Experience>
+      </section>
+
+      <section class="content" id="services">
+        <Services></Services>
       </section>
     </div>
   </main>
