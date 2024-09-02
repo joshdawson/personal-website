@@ -5,7 +5,7 @@
   <h1>JOSH DAWSON</h1>
   <h4>Freelance Software Developer & Architect</h4>
   
-  <p>I build performant, scalable, and secure things for the web; specialising in building MVPs and getting new products off the ground.</p>
+  <p>I enjoy working in startups, specialising in building MVPs and getting new products off the ground.</p>
   
   <p><a href="mailto:joshdawson@progmaticsoftware.co.uk">joshdawson@progmaticsoftware.co.uk</a></p>
   <p>
@@ -26,6 +26,10 @@
 </template>
 
 <style scoped>
+  p {
+    margin: .5em 0;
+  }
+
   .social-icon-wrapper {
     width: 42px;
     height: 42px;

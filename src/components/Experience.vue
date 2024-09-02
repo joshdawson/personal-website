@@ -11,7 +11,7 @@ import Card from 'primevue/card';
 
     <template #content>
       <small>Contract</small>
-      <p>Building and architecting feasibility study for AI tool for the creative industry.</p>
+      <p>Architected and built a brand new solution for an AI tool for the creative industry. Provisioned infrastructure, built CI/CD pipelines, and led backend development.</p>
     </template>
   </Card>
 

@@ -15,12 +15,12 @@
         <About></About>
       </section>
 
-      <section class="content" id="projects">
-        <Projects></Projects>
-      </section>
-
       <section class="content" id="experience">
         <Experience></Experience>
+      </section>
+
+      <section class="content" id="projects">
+        <Projects></Projects>
       </section>
 
       <section class="content" id="services">

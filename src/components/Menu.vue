@@ -9,8 +9,8 @@ import meImageUrl from '../assets/me.jpg'
     </div>
     
     <p><a class="menu-link" href="#about">ABOUT</a></p>
-    <p><a class="menu-link" href="#projects">PROJECTS</a></p>
     <p><a class="menu-link" href="#experience">EXPERIENCE</a></p>
+    <p><a class="menu-link" href="#projects">PROJECTS</a></p>
     <p><a class="menu-link" href="#services">SERVICES</a></p>
   </aside>
 </template>
