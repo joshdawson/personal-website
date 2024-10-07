@@ -17,7 +17,7 @@ import Card from 'primevue/card';
 
   <Card class="experience-card">
     <template #title>Technical Lead @ BrandSeed</template>
-    <template #subtitle>March 2024 - Present</template>
+    <template #subtitle>March 2024 - October 2024</template>
 
     <template #content>
       <small>Part-time</small>
