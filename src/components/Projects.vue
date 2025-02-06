@@ -1,10 +1,31 @@
 <script setup lang="ts">
-  import Card from 'primevue/card';
-  import videoUrl from '../assets/toon-library-video.mp4';
+import Card from 'primevue/card';
+import meghariaImageUrl from '../assets/megharia.png';
+import videoUrl from '../assets/toon-library-video.mp4';
 </script>
 
 <template>
   <h1>PROJECTS</h1>
+
+  <Card class="card-container">
+    <template #header>
+      <div class="video-container">
+        <img :src="meghariaImageUrl" class="project-header" />
+      </div>
+    </template>
+
+    <template #title>Megharia</template>
+    <template #subtitle>Room rearranging web app</template>
+    <template #content><strong>Built with: </strong>Nx, Angular</template>
+
+    <template #footer>
+      <div>
+        <small>
+          <a href="https://megharia-450113.nw.r.appspot.com/">View project</a>
+        </small>
+      </div>
+    </template>
+  </Card>
 
   <Card class="card-container">
     <template #header>
