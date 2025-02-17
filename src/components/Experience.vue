@@ -16,6 +16,16 @@ import Card from 'primevue/card';
   </Card>
 
   <Card class="experience-card">
+    <template #title>Freelance Software Developer @ Progmatic Software Ltd</template>
+    <template #subtitle>February 2024 - Present</template>
+
+    <template #content>
+      <small>Freelance / Self-Employed</small>
+      <p>Worked with various clients on projects including: enhancing dashboard features for a data visualisation app and developing scheduled backend jobs.</p>
+    </template>
+  </Card>
+
+  <Card class="experience-card">
     <template #title>Technical Lead @ BrandSeed</template>
     <template #subtitle>March 2024 - October 2024</template>
 
