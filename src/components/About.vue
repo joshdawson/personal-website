@@ -3,7 +3,7 @@
 
 <template>
   <h1>JOSH DAWSON</h1>
-  <h4>Freelance Software Developer & Architect</h4>
+  <h4>Full Stack Developer & Architect</h4>
   
   <p>I enjoy working in startups, specialising in building MVPs and getting new products off the ground.</p>
   

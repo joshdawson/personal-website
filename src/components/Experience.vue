@@ -6,22 +6,22 @@ import Card from 'primevue/card';
   <h1>EXPERIENCE</h1>
 
   <Card class="experience-card">
+    <template #title>Freelance Software Developer @ Valifi Ltd</template>
+    <template #subtitle>January 2025 - April 2025</template>
+
+    <template #content>
+      <small>Freelance</small>
+      <p>Collaborated with a UK FinTech startup on various ad-hoc tasks including expanding the automated testing suite to improve code reliability, and developing scheduled jobs to remove manual processes.</p>
+    </template>
+  </Card>
+
+  <Card class="experience-card">
     <template #title>System Architect @ Persona Design</template>
     <template #subtitle>May 2024 - Present</template>
 
     <template #content>
       <small>Contract</small>
       <p>Architected and built a brand new solution for an AI tool for the creative industry. Provisioned infrastructure, built CI/CD pipelines, and led backend development.</p>
-    </template>
-  </Card>
-
-  <Card class="experience-card">
-    <template #title>Freelance Software Developer @ Progmatic Software Ltd</template>
-    <template #subtitle>February 2024 - Present</template>
-
-    <template #content>
-      <small>Freelance / Self-Employed</small>
-      <p>Worked with various clients on projects including: enhancing dashboard features for a data visualisation app and developing scheduled backend jobs.</p>
     </template>
   </Card>
 
