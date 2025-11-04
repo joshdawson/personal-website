@@ -19,7 +19,7 @@ import Card from "primevue/card";
   </Card>
 
   <Card class="experience-card">
-    <template #title>Backend Developer @ Future_find Ltd</template>
+    <template #title>Full Stack Developer @ Future_find Ltd</template>
     <template #subtitle>July 2025 - Present</template>
 
     <template #content>
