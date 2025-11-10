@@ -25,7 +25,7 @@ import Card from "primevue/card";
     <template #content>
       <small>Freelance</small>
       <p>
-        Partnered with a founder in the recruitment industry to design and
+        Collaborated with a founder in the recruitment industry to design and
         deliver an AI-powered recruitment platform MVP. Defined the cloud
         architecture using IaC and developed the full stack solution, including
         REST APIs and a modern frontend application.
@@ -40,7 +40,7 @@ import Card from "primevue/card";
     <template #content>
       <small>Freelance</small>
       <p>
-        Collaborated with a UK FinTech startup on various ad-hoc tasks including
+        Worked with a UK FinTech startup on various ad-hoc tasks including
         expanding the automated testing suite to improve code reliability, and
         developing scheduled jobs to remove manual processes.
       </p>
