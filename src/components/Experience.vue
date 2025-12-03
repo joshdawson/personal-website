@@ -6,19 +6,6 @@ import Card from "primevue/card";
   <h1>EXPERIENCE</h1>
 
   <Card class="experience-card">
-    <template #title>Software Development Coach @ Skiller Whale</template>
-    <template #subtitle>April 2025 - Present</template>
-
-    <template #content>
-      <small>Freelance</small>
-      <p>
-        Delivering coaching sessions on advanced TypeScript topics including
-        generics, utility types, and function overloading.
-      </p>
-    </template>
-  </Card>
-
-  <Card class="experience-card">
     <template #title>Full Stack Developer @ Future_find Ltd</template>
     <template #subtitle>July 2025 - Present</template>
 
@@ -29,6 +16,19 @@ import Card from "primevue/card";
         deliver an AI-powered recruitment platform MVP. Defined the cloud
         architecture using IaC and developed the full stack solution, including
         REST APIs and a modern frontend application.
+      </p>
+    </template>
+  </Card>
+
+  <Card class="experience-card">
+    <template #title>Software Development Coach @ Skiller Whale</template>
+    <template #subtitle>April 2025 - Present</template>
+
+    <template #content>
+      <small>Freelance</small>
+      <p>
+        Delivering coaching sessions on advanced TypeScript topics including
+        generics, utility types, and function overloading.
       </p>
     </template>
   </Card>
