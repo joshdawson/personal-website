@@ -6,8 +6,21 @@ import Card from "primevue/card";
   <h1>EXPERIENCE</h1>
 
   <Card class="experience-card">
-    <template #title>Full Stack Developer @ Future_find Ltd</template>
-    <template #subtitle>July 2025 - Present</template>
+    <template #title>Software Developer @ ethy</template>
+    <template #subtitle>November 2025 - Present</template>
+
+    <template #content>
+      <small>Contract</small>
+      <p>
+        Owning the technical delivery of a SaaS product, including feature
+        development, maintenance, and production releases.
+      </p>
+    </template>
+  </Card>
+
+  <Card class="experience-card">
+    <template #title>Full Stack Developer</template>
+    <template #subtitle>July 2025 - November 2025</template>
 
     <template #content>
       <small>Freelance</small>
