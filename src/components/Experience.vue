@@ -6,7 +6,7 @@ import Card from "primevue/card";
   <h1>EXPERIENCE</h1>
 
   <Card class="experience-card">
-    <template #title>Software Developer @ ethy</template>
+    <template #title>Full Stack Developer @ ethy</template>
     <template #subtitle>November 2025 - Present</template>
 
     <template #content>
