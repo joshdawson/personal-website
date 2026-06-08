@@ -207,9 +207,9 @@ import meImageUrl from "../assets/me.jpg";
   .menu {
     flex: none;
     flex-direction: row;
-    align-items: center;
-    padding: 0 var(--space-4);
+    align-items: stretch;
     height: 56px;
+    padding: 0 var(--space-4);
     position: sticky;
     top: 0;
     z-index: 100;
@@ -223,10 +223,31 @@ import meImageUrl from "../assets/me.jpg";
 
   .menu-top {
     flex-direction: row;
+    align-items: center;
     padding: 0;
     gap: var(--space-3);
     flex-shrink: 0;
     margin-right: auto;
+  }
+
+  .menu-nav {
+    flex-direction: row;
+    align-items: stretch;
+    flex: none;
+    gap: 0;
+  }
+
+  .menu-link {
+    padding: 0 var(--space-3);
+    border-left: none;
+    font-size: 10px;
+    letter-spacing: 0.08em;
+    box-shadow: inset 0 -2px 0 transparent;
+  }
+
+  .menu-link:hover {
+    background: rgba(255, 255, 255, 0.06);
+    box-shadow: inset 0 -2px 0 var(--theme-highlight-bright);
   }
 
   .circle-image {
@@ -247,27 +268,6 @@ import meImageUrl from "../assets/me.jpg";
 
   .menu-tagline {
     display: none;
-  }
-
-  .menu-nav {
-    flex-direction: row;
-    flex: none;
-    gap: 0;
-  }
-
-  .menu-link {
-    padding: 0 var(--space-3);
-    height: 56px;
-    border-left: none;
-    border-bottom: 2px solid transparent;
-    font-size: 10px;
-    letter-spacing: 0.08em;
-  }
-
-  .menu-link:hover {
-    background: rgba(255, 255, 255, 0.06);
-    border-left-color: transparent;
-    border-bottom-color: var(--theme-highlight-bright);
   }
 
   .link-icon {
