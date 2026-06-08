@@ -2,6 +2,14 @@
 const jobs = [
   {
     title: "Software Developer",
+    company: null,
+    period: "February 2026 - Present",
+    type: "Freelance",
+    description:
+      "Leading the end-to-end migration and modernisation of a legacy production platform onto a current, secure, and supportable stack. Working across the full system: database, caching, search, web server, and background processing.",
+  },
+  {
+    title: "Software Developer",
     company: "ethy",
     period: "November 2025 - Present",
     type: "Contract",
