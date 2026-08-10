@@ -42,7 +42,7 @@ const jobs = [
   },
   {
     title: "System Architect",
-    company: "Persona Design",
+    company: "Persona Dynamics",
     period: "May 2024 - Present",
     type: "Contract",
     description:
