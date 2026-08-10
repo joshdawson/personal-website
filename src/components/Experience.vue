@@ -27,7 +27,7 @@ const jobs = [
   {
     title: "Software Development Coach",
     company: "Skiller Whale",
-    period: "April 2025 - Present",
+    period: "April 2025 - May 2025",
     type: "Freelance",
     description:
       "Delivering coaching sessions on advanced TypeScript topics including generics, utility types, and function overloading.",
