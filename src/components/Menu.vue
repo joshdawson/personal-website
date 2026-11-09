@@ -5,7 +5,7 @@ import meImageUrl from "../assets/me.jpg";
 <template>
   <header class="header">
     <a href="#about" class="branding">
-      <img class="avatar" :src="meImageUrl" alt="" />
+      <img class="avatar" :src="meImageUrl" alt="Josh Dawson" />
       <span class="name">Josh Dawson</span>
       <span class="tagline">Fractional Tech Lead · Architect</span>
     </a>

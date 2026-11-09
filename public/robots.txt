@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://progmaticsoftware.co.uk/sitemap.xml
