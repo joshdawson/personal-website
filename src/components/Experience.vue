@@ -84,196 +84,147 @@ const jobs = [
 </script>
 
 <template>
-  <div class="timeline">
-    <div class="timeline-item" v-for="(job, i) in jobs" :key="i">
-      <div class="timeline-line">
-        <div class="timeline-dot"></div>
-        <div class="timeline-track" v-if="i < jobs.length - 1"></div>
-      </div>
-
-      <div class="timeline-card">
-        <div class="card-header">
-          <div class="card-title-group">
-            <span class="job-title">{{ job.title }}</span>
+  <ol class="timeline">
+    <li
+      class="timeline-step"
+      v-for="(job, i) in jobs"
+      :key="i"
+      :class="{ current: job.period.endsWith('Present') }"
+    >
+      <div class="step-period">{{ job.period }}</div>
+      <div class="step-marker" aria-hidden="true"></div>
+      <div class="step-body">
+        <div class="step-heading">
+          <h3 class="job-title">
+            {{ job.title }}
             <span v-if="job.company" class="job-company"
-              >@ {{ job.company }}</span
+              >· {{ job.company }}</span
             >
-          </div>
-          <span class="job-badge">{{ job.type }}</span>
+          </h3>
+          <span class="label">{{ job.type }}</span>
         </div>
-        <span class="job-period"
-          ><i class="pi pi-calendar"></i> {{ job.period }}</span
-        >
         <p class="job-desc">{{ job.description }}</p>
       </div>
-    </div>
-  </div>
+    </li>
+  </ol>
 
-  <p class="full-cv">
-    For a comprehensive overview of my experience,
-    <a
-      href="https://drive.google.com/file/d/1UJpp17BI0EvO6v5g5bxyIB6ll76jBzzE/view?usp=sharing"
-      >explore my full CV <i class="pi pi-external-link"></i
-    ></a>
-  </p>
+  <a
+    class="btn btn-outline full-cv"
+    href="https://drive.google.com/file/d/1UJpp17BI0EvO6v5g5bxyIB6ll76jBzzE/view?usp=sharing"
+  >
+    View full CV <i class="pi pi-external-link"></i>
+  </a>
 </template>
 
 <style scoped>
 .timeline {
-  display: flex;
-  flex-direction: column;
-  gap: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.timeline-item {
+.timeline-step {
   display: grid;
-  grid-template-columns: 28px 1fr;
-  gap: 0 var(--space-4);
+  grid-template-columns: 180px 12px 1fr;
+  column-gap: var(--space-4);
+  position: relative;
 }
 
-/* ── Left rail ── */
-.timeline-line {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 4px;
+/* connecting line, runs through the marker column */
+.timeline-step::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: calc(180px + var(--space-4) + 5.5px);
+  width: 1px;
+  background: var(--color-border);
 }
 
-.timeline-dot {
-  width: 10px;
-  height: 10px;
+.timeline-step:first-child::before {
+  top: 4px;
+}
+
+.timeline-step:last-child::before {
+  bottom: auto;
+  height: 4px;
+}
+
+.step-period {
+  padding-top: 1px;
+  font-size: var(--text-sm);
+  color: var(--color-text-subtle);
+  text-align: right;
+}
+
+.step-marker {
+  position: relative;
+  width: 12px;
+  height: 12px;
+  margin-top: 4px;
+  border: 1px solid var(--color-accent);
   border-radius: 50%;
+  background: var(--color-bg);
+}
+
+.current .step-marker {
   background: var(--color-accent);
-  border: 2px solid var(--color-bg);
-  box-shadow: 0 0 0 2px var(--color-accent);
-  flex-shrink: 0;
-  transition:
-    background var(--transition),
-    box-shadow var(--transition);
 }
 
-.timeline-item:hover .timeline-dot {
-  background: var(--color-accent-hover);
-  box-shadow: 0 0 0 3px rgba(24, 118, 140, 0.25);
+.step-body {
+  padding-bottom: var(--space-6);
 }
 
-.timeline-track {
-  flex: 1;
-  width: 2px;
-  background: linear-gradient(
-    to bottom,
-    var(--color-accent),
-    var(--color-border)
-  );
-  opacity: 0.25;
-  margin: var(--space-2) 0;
-}
-
-/* ── Card ── */
-.timeline-card {
-  background: var(--color-surface);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-lg);
-  padding: var(--space-4) var(--space-6);
-  margin-bottom: var(--space-4);
-  box-shadow: var(--shadow-sm);
-  transition:
-    box-shadow var(--transition),
-    transform var(--transition),
-    border-color var(--transition);
-}
-
-.timeline-item:hover .timeline-card {
-  box-shadow: var(--shadow-md);
-  transform: translateX(3px);
-  border-color: rgba(24, 118, 140, 0.25);
-}
-
-.card-header {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: var(--space-3);
-  margin-bottom: var(--space-1);
-}
-
-.card-title-group {
+.step-heading {
   display: flex;
   flex-wrap: wrap;
-  align-items: baseline;
+  align-items: center;
   gap: var(--space-2);
 }
 
 .job-title {
-  font-size: var(--text-base);
-  font-weight: 600;
-  color: var(--color-text);
+  margin: 0;
+  font-size: var(--text-md);
+  line-height: 1.25;
 }
 
 .job-company {
-  font-size: var(--text-sm);
-  color: var(--color-accent);
-  font-weight: 500;
-}
-
-.job-badge {
-  font-size: var(--text-xs);
-  font-weight: 500;
-  color: var(--color-accent);
-  background: rgba(24, 118, 140, 0.08);
-  border: 1px solid rgba(24, 118, 140, 0.2);
-  border-radius: var(--radius-full);
-  padding: 2px var(--space-3);
-  white-space: nowrap;
-  flex-shrink: 0;
-}
-
-.job-period {
-  display: inline-flex;
-  align-items: center;
-  gap: var(--space-1);
-  font-size: var(--text-xs);
+  font-weight: 400;
   color: var(--color-text-muted);
-  letter-spacing: 0.02em;
-}
-
-.job-period .pi {
-  font-size: 11px;
-  opacity: 0.7;
-  line-height: 1;
 }
 
 .job-desc {
-  font-size: var(--text-sm);
-  color: var(--color-text-muted);
-  line-height: 1.65;
   margin: var(--space-2) 0 0;
+  max-width: 65ch;
 }
 
 .full-cv {
-  margin-top: var(--space-6);
-  font-size: var(--text-sm);
-  color: var(--color-text-muted);
-}
-
-.full-cv a .pi {
-  font-size: 12px;
-  vertical-align: middle;
-  margin-left: var(--space-1);
+  margin-top: var(--space-4);
 }
 
 @media (max-width: 640px) {
-  .timeline-item {
-    grid-template-columns: 20px 1fr;
+  .timeline-step {
+    grid-template-columns: 12px 1fr;
   }
 
-  .timeline-card {
-    padding: var(--space-4);
+  .timeline-step::before {
+    left: 5.5px;
   }
 
-  .card-header {
-    flex-direction: column;
-    gap: var(--space-2);
+  .step-period {
+    grid-column: 2;
+    grid-row: 1;
+    text-align: left;
+    padding: 0 0 var(--space-1);
+  }
+
+  .step-marker {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .step-body {
+    grid-column: 2;
   }
 }
 </style>

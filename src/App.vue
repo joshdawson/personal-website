@@ -9,72 +9,51 @@ import Services from "./components/Services.vue";
   <Menu></Menu>
 
   <main class="content-container">
-    <div class="content-container-inner">
-      <section class="content" id="about">
-        <div class="section-label">
-          <span class="section-title">About</span>
-        </div>
-        <About></About>
-      </section>
+    <section class="content" id="about">
+      <About></About>
+    </section>
 
-      <section class="content" id="experience">
-        <span class="section-title">Experience</span>
-        <Experience></Experience>
-      </section>
+    <section class="content" id="experience">
+      <h2 class="section-title">Experience</h2>
+      <Experience></Experience>
+    </section>
 
-      <!-- <section class="content" id="projects">
-        <span class="section-title">Projects</span>
-        <Projects></Projects>
-      </section> -->
+    <!-- <section class="content" id="projects">
+      <h2 class="section-title">Projects</h2>
+      <Projects></Projects>
+    </section> -->
 
-      <section class="content" id="services">
-        <span class="section-title">Services</span>
-        <Services></Services>
-      </section>
-    </div>
+    <section class="content" id="services">
+      <h2 class="section-title">Services</h2>
+      <Services></Services>
+    </section>
   </main>
 </template>
 
 <style scoped>
 .content-container {
-  overflow-y: auto;
-  scroll-behavior: smooth;
-  flex: 1;
-  background: var(--color-bg);
-}
-
-.content-container-inner {
-  max-width: 860px;
+  max-width: 920px;
   margin: 0 auto;
-  padding: 0 var(--space-8);
+  padding: 0 var(--space-6);
 }
 
 .content {
-  color: var(--color-text);
-  display: flex;
-  flex-direction: column;
-  padding: var(--space-16) 0 var(--space-12);
-  justify-content: center;
-  min-height: 100dvh;
+  padding: var(--space-12) 0;
   border-bottom: 1px solid var(--color-border);
+  scroll-margin-top: var(--header-height);
 }
 
 .content:last-child {
   border-bottom: none;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 640px) {
   .content-container {
-    overflow-y: visible;
-  }
-
-  .content-container-inner {
     padding: 0 var(--space-4);
   }
 
   .content {
-    min-height: auto;
-    padding: var(--space-12) 0 var(--space-8);
+    padding: var(--space-8) 0;
   }
 }
 </style>

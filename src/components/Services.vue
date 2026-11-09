@@ -21,21 +21,18 @@ const services = [
 <template>
   <div class="services-grid">
     <div class="service-card" v-for="(service, i) in services" :key="i">
-      <div class="service-icon">
-        <i :class="['pi', service.icon]"></i>
-      </div>
+      <i :class="['pi', service.icon, 'service-icon']" aria-hidden="true"></i>
       <h3 class="service-title">{{ service.title }}</h3>
       <p class="service-body">{{ service.body }}</p>
     </div>
   </div>
 
   <div class="services-cta">
-    <p>
-      <a href="mailto:josh@progmaticsoftware.co.uk"
-        ><i class="pi pi-send"></i> Get in touch</a
-      >
-      for a chat.
-    </p>
+    <p>Not sure which fits? Get in touch for a chat.</p>
+    <a class="btn btn-primary" href="mailto:josh@progmaticsoftware.co.uk">
+      <i class="pi pi-envelope"></i>
+      Get in touch
+    </a>
   </div>
 </template>
 
@@ -47,86 +44,42 @@ const services = [
 }
 
 .service-card {
-  background: var(--color-surface);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-lg);
-  padding: var(--space-6);
-  box-shadow: var(--shadow-sm);
   display: flex;
   flex-direction: column;
-  gap: var(--space-3);
-  transition:
-    box-shadow var(--transition),
-    transform var(--transition),
-    border-color var(--transition);
-}
-
-.service-card:hover {
-  box-shadow: var(--shadow-md);
-  transform: translateY(-3px);
-  border-color: rgba(24, 118, 140, 0.3);
+  padding: var(--space-6);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
 }
 
 .service-icon {
-  width: 40px;
-  height: 40px;
-  border-radius: var(--radius-md);
-  background: rgba(24, 118, 140, 0.08);
-  border: 1px solid rgba(24, 118, 140, 0.15);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  font-size: 24px;
   color: var(--color-accent);
-  flex-shrink: 0;
-}
-
-.service-icon .pi {
-  font-size: 18px;
-  line-height: 1;
-}
-
-.service-card:hover .service-icon {
-  background: rgba(24, 118, 140, 0.14);
+  margin-bottom: var(--space-4);
 }
 
 .service-title {
-  font-size: var(--text-base);
-  font-weight: 700;
-  color: var(--color-text);
   margin: 0;
+  font-size: var(--text-md);
+  line-height: 1.25;
 }
 
 .service-body {
-  font-size: var(--text-sm);
-  color: var(--color-text-muted);
-  line-height: 1.65;
-  margin: 0;
-  flex: 1;
+  margin: var(--space-2) 0 0;
 }
 
 .services-cta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-4);
   margin-top: var(--space-8);
-  padding: var(--space-6);
-  background: linear-gradient(
-    135deg,
-    rgba(24, 118, 140, 0.06) 0%,
-    rgba(24, 118, 140, 0.02) 100%
-  );
-  border: 1px solid rgba(24, 118, 140, 0.15);
-  border-radius: var(--radius-lg);
-  text-align: center;
 }
 
 .services-cta p {
   margin: 0;
-  font-size: var(--text-base);
-  color: var(--color-text-muted);
-}
-
-.services-cta a .pi {
-  font-size: 13px;
-  vertical-align: middle;
-  margin-right: var(--space-1);
+  font-size: var(--text-md);
 }
 
 @media (max-width: 640px) {
