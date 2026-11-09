@@ -13,6 +13,11 @@ import Services from "./components/Services.vue";
       <About></About>
     </section>
 
+    <section class="content" id="services">
+      <h2 class="section-title">Services</h2>
+      <Services></Services>
+    </section>
+
     <section class="content" id="experience">
       <h2 class="section-title">Experience</h2>
       <Experience></Experience>
@@ -22,11 +27,6 @@ import Services from "./components/Services.vue";
       <h2 class="section-title">Projects</h2>
       <Projects></Projects>
     </section> -->
-
-    <section class="content" id="services">
-      <h2 class="section-title">Services</h2>
-      <Services></Services>
-    </section>
   </main>
 </template>
 

@@ -12,8 +12,8 @@ import meImageUrl from "../assets/me.jpg";
 
     <nav class="nav" aria-label="Sections">
       <a class="nav-link" href="#about">About</a>
-      <a class="nav-link" href="#experience">Experience</a>
       <a class="nav-link" href="#services">Services</a>
+      <a class="nav-link" href="#experience">Experience</a>
     </nav>
   </header>
 </template>
