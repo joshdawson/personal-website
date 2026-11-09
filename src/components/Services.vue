@@ -1,24 +1,19 @@
 <script setup lang="ts">
 const services = [
   {
-    icon: "pi-code",
-    title: "Web Development",
-    body: "Leveraging cutting-edge technologies, I craft robust and scalable web applications tailored to your specific requirements - from dynamic single-page applications to full SaaS solutions.",
-  },
-  {
-    icon: "pi-server",
-    title: "API Development",
-    body: "Using my expertise in API design principles, I develop secure and efficient APIs. From custom integrations to comprehensive backend solutions, I ensure your applications are equipped with robust, scalable APIs.",
-  },
-  {
-    icon: "pi-eye",
-    title: "Code Reviews",
-    body: "Drawing on extensive software engineering and technical leadership experience, I offer comprehensive code review services - identifying vulnerabilities, improving quality, and enhancing overall maintainability.",
-  },
-  {
     icon: "pi-users",
-    title: "Mentoring",
-    body: "With a passion for knowledge sharing and talent development, I provide personalised mentoring to developers early in their career - helping them build confidence and develop good engineering habits.",
+    title: "Fractional Tech Lead",
+    body: "For non-technical founders who need someone to own the tech. A few days a month covering architecture and infrastructure decisions, security, and keeping delivery on track.",
+  },
+  {
+    icon: "pi-shield",
+    title: "AI-Built App Review",
+    body: "Built your app with AI tools like Cursor, Lovable or Bolt? A fixed-price review of what's risky (security, data exposure, architecture, scalability, hosting costs), what to fix first, and whether it will hold up as you grow. You get a written report and a walkthrough call.",
+  },
+  {
+    icon: "pi-sitemap",
+    title: "Architecture Review",
+    body: "Facing a big technical call, such as rebuild or refactor, or how to set up your cloud? A focused review with a written recommendation.",
   },
 ];
 </script>
@@ -36,11 +31,10 @@ const services = [
 
   <div class="services-cta">
     <p>
-      Ready to build something great?
-      <a href="mailto:joshdawson@progmaticsoftware.co.uk"
+      <a href="mailto:josh@progmaticsoftware.co.uk"
         ><i class="pi pi-send"></i> Get in touch</a
       >
-      to discuss your project.
+      for a chat.
     </p>
   </div>
 </template>

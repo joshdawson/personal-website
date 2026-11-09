@@ -13,7 +13,7 @@ import meImageUrl from "../assets/me.jpg";
 
       <div class="menu-identity">
         <span class="menu-name">Josh Dawson</span>
-        <span class="menu-tagline">Tech Lead · Architect · Dev</span>
+        <span class="menu-tagline">Fractional Tech Lead · Architect</span>
       </div>
     </div>
 
@@ -33,12 +33,9 @@ import meImageUrl from "../assets/me.jpg";
     </nav>
 
     <div class="menu-footer">
-      <a
-        href="mailto:joshdawson@progmaticsoftware.co.uk"
-        class="menu-footer-link"
-      >
+      <a href="mailto:josh@progmaticsoftware.co.uk" class="menu-footer-link">
         <i class="pi pi-envelope"></i>
-        joshdawson@progmaticsoftware.co.uk
+        josh@progmaticsoftware.co.uk
       </a>
     </div>
   </aside>

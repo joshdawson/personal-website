@@ -1,20 +1,20 @@
 <script setup lang="ts">
 const jobs = [
   {
-    title: "Software Developer",
+    title: "Technical Lead",
     company: null,
-    period: "February 2026 - Present",
+    period: "February 2026 - October 2026",
     type: "Freelance",
     description:
       "Leading the end-to-end migration and modernisation of a legacy production platform onto a current, secure, and supportable stack. Working across the full system: database, caching, search, web server, and background processing.",
   },
   {
-    title: "Software Developer",
+    title: "Fractional Tech Lead",
     company: "ethy",
     period: "November 2025 - Present",
     type: "Contract",
     description:
-      "Owning the technical delivery of a SaaS product, including feature development, maintenance, and production releases.",
+      "Sole technical owner of a live SaaS platform. Delivered its pivot to a vendor marketplace, served under the existing domain through a reverse proxy with SEO preserved, alongside ongoing maintenance, security upgrades and feature development.",
   },
   {
     title: "Full Stack Developer",
@@ -46,7 +46,7 @@ const jobs = [
     period: "May 2024 - Present",
     type: "Contract",
     description:
-      "Architected and built a brand new solution for an AI tool for the creative industry. Provisioned infrastructure, built CI/CD pipelines, and led backend development.",
+      "Own the backend and infrastructure for an early-stage AI startup whose platform turns research documents into AI personas that users can chat with. Designed and built the platform from scratch, and make the technical decisions behind it: architecture, hosting, security, running costs and choice of AI providers.",
   },
   {
     title: "Technical Lead",
